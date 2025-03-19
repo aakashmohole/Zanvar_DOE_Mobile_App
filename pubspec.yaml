@@ -1,0 +1,29 @@
+name: flutter_application_1
+description: "A new Flutter project matching the provided design."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.1.0  # ✅ Added Google Fonts for text styling
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # ✅ Updated asset paths to match the uploaded files
+  assets:
+    - assets/bg.jpeg
+    - assets/google_logo.png
+    - assets/z-logo 1.png
